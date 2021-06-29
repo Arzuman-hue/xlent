@@ -1,0 +1,91 @@
+    .MDBContainerForm {
+    position: absolute;
+    height: calc(100% - 60px);
+    right: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.headerTxtStyle {
+    color: #4E4B66;
+    font-family: Poppins, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.empty-circle {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border: 1px solid silver;
+    border-radius: 50%
+}
+.linkToProblemsLogin, .rememberSpanStyle {
+    color: #14142B;
+    line-height: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none
+}
+.rememberSpanStyle {
+    margin-left: 2px
+}
+input:focus {
+    outline: none !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+}
+.emailStyle, .passwordStyle {
+    color: #6E7191;
+    border-radius: 16px;
+    background-color: #EFF0F6 !important;
+    border-color: #EFF0F6 !important;
+}
+.loginCheckboxStyle {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center
+}
+.checkBoxWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+.checkboxIStyle {
+    position: absolute;
+    left: -1px;
+    top: -3px;
+    border-radius: 50%;
+    color: #0087D2;
+}
+Form .logBtnStyle{
+    position: relative;
+    border-radius: 96px;
+    background-color: #0087D2;
+    outline: none;
+    color: #F7F7FC;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Poppins,serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.faIconStyle{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.createAccountStyle{
+    display: block;
+    color: #14142B;
+    line-height: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+    letter-spacing: 1px
+}
